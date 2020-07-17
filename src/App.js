@@ -4,6 +4,10 @@ import "./App.css";
 import Product from "./Product/Product.js";
 import Poster from "./Poster/Poster.js";
 import Header from "./Header/Header.js";
+import Products from "./Products/Products.js";
+import ContactUs from "./ContactUs/ContactUs.js";
+import ConnectWithUs from "./ConnectWithUs/ConnectWithUs.js";
+import Footer from "./Footer/Footer.js";
 
 const switchHandler = () => {
   console.log("switch Handler Click");
@@ -32,6 +36,10 @@ function App() {
       </ul> */}
       <Header />
       <Poster />
+      {/* <Products /> */}
+      <ContactUs />
+      <ConnectWithUs />
+      <Footer />
     </div>
   );
 }

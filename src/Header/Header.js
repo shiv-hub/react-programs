@@ -16,10 +16,18 @@ export default function header() {
         <Nav.Link href="#tables">Tables</Nav.Link>
         <Nav.Link href="#chairs">Chairs</Nav.Link>
       </Nav>
-      <Form inline>
+
+      <Nav>
+        <Nav.Link href="#">
+          <i class="fas fa-shopping-cart"></i>
+        </Nav.Link>
+      </Nav>
+      <Button variant="outline-light">Login</Button>
+      <Button variant="outline-light">Sign Up</Button>
+      {/* <Form inline>
         <FormControl type="text" placeholder="Search" className="mr-sm-2" />
         <Button variant="outline-light">Search</Button>
-      </Form>
+      </Form> */}
     </Navbar>
   );
 }

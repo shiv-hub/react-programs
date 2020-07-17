@@ -7,7 +7,6 @@ export default function poster() {
       <div className="poster-content">
         <div>
           <h1>Rentage</h1>
-
           <h3>Hassle-free and Convenient Rental solutions</h3>
         </div>
       </div>
