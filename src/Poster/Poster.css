@@ -1,0 +1,16 @@
+.poster {
+  background-image: url("../Assets/poster.jpg");
+  background-size: cover;
+  max-width: initial;
+  height: 600px;
+
+  background: cover;
+}
+
+.poster-content {
+  color: white;
+  text-align: center;
+  /* justify-content: center;
+  display: flex;
+  align-content: center; */
+}

@@ -5,7 +5,6 @@ const person = (props) => {
     <div>
       <h1>Hey person method is working</h1>
       <p>Hey {props.name}</p>
-      <p>{props.children}</p>
     </div>
   );
 };
